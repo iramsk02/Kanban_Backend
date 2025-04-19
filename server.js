@@ -14,12 +14,13 @@ const path = require('path');
 
 // app.use(fileUpload()); // Middleware to handle/ file uploads
 app.use(cors());
+
 app.use(fileUpload({
   useTempFiles: true,
   tempFileDir: path.join(__dirname, 'tmp'), // for Windows safety
 }));
 
-const port = 5000;
+// const port = 5000;
 
 // Middleware
 app.use(express.json());  // For parsing JSON bodies
@@ -206,6 +207,6 @@ io.on('connection', (socket) => {
 });
 
 // Start the server
-server.listen(port, () => {
+server.listen(process.env.PORT, () => {
   console.log(`Server running at http://localhost:${port}`);
 });

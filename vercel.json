@@ -11,10 +11,5 @@
             "src": "/api/(.*)",
             "dest": "server.js"
         }
-    ],
-    "env": {
-        "CLOUD_NAME": "drvmc3ggq",
-        "API_KEY": "591531646911762",
-        "API_SECRET": "xDLqpzUYIsSFlL4jdFDOsistfIs"
-    }
+    ]
 }

@@ -208,5 +208,5 @@ io.on('connection', (socket) => {
 
 // Start the server
 server.listen(process.env.PORT, () => {
-  console.log(`Server running at http://localhost:${port}`);
+  console.log(`Server running at http://localhost`);
 });

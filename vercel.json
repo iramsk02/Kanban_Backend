@@ -14,7 +14,7 @@
     ],
     "env": {
         "CLOUD_NAME": "drvmc3ggq",
-        "API_KEY": "@API_KEY",
-        "API_SECRET": "@API_SECRET"
+        "API_KEY": "@api_key",
+        "API_SECRET": "@api_secret"
     }
 }

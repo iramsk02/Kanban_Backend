@@ -1,6 +1,6 @@
 // utils/cloudinary.js
 const cloudinary = require('cloudinary').v2;
-dotenv.config()
+
 
 
 cloudinary.config({
